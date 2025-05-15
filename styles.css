@@ -120,4 +120,19 @@
       width: 100%;
     }
   }
+
+/*==================================
+   Background design
+===================================*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('earth_oil_background.png') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000; /* fallback if image doesn't load */
+  background-blend-mode: multiply;
+  color: #f4f4f4;
+}
+
   
